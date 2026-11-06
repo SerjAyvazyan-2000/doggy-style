@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Стиль Собачки — студия груминга для собак и кошек в Самаре</title>
+  <meta name="description" content="Груминг собак и кошек в Самаре: стрижка, купание, вычёс подшёрстка, озоновая SPA-ванна, креативный груминг. Косметика Davis, рейтинг 5.0 на Яндекс Картах. ул. Революционная, 135.">
+  <meta name="theme-color" content="#F6F0E8">
+  <meta property="og:title" content="Стиль Собачки — студия груминга в Самаре">
+  <meta property="og:description" content="Из лохматика — в звезду района. Груминг собак и кошек, рейтинг 5.0.">
+  <meta property="og:image" content="assets/images/lisichka-2.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Dela+Gothic+One&family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="is-loading">
+
+  <!-- Прелоадер -->
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader__paws">
+      <span></span><span></span><span></span><span></span>
+    </div>
+    <div class="preloader__word">Стиль&nbsp;Собачки</div>
+  </div>
+
+  <div class="progress" aria-hidden="true"><span></span></div>
+  <div class="cursor" aria-hidden="true"><span class="cursor__label"></span></div>
+
+  <!-- Шапка -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo" aria-label="Стиль Собачки — на главную">
+        <svg class="logo__mark" viewBox="0 0 48 48" aria-hidden="true">
+          <circle cx="24" cy="24" r="24" fill="currentColor"/>
+          <g fill="#F6F0E8">
+            <ellipse cx="24" cy="30" rx="8.5" ry="7"/>
+            <ellipse cx="14.5" cy="21" rx="3.4" ry="4.4" transform="rotate(-18 14.5 21)"/>
+            <ellipse cx="20.5" cy="14.5" rx="3.4" ry="4.6"/>
+            <ellipse cx="27.5" cy="14.5" rx="3.4" ry="4.6"/>
+            <ellipse cx="33.5" cy="21" rx="3.4" ry="4.4" transform="rotate(18 33.5 21)"/>
+          </g>
+        </svg>
+        <span class="logo__text">Стиль<br>Собачки</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="#services" class="nav__link">Услуги</a>
+        <a href="#before-after" class="nav__link">До / после</a>
+        <a href="#works" class="nav__link">Работы</a>
+        <a href="#reviews" class="nav__link">Отзывы</a>
+        <a href="#faq" class="nav__link">Вопросы</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
+        <div class="nav__mobile-extra">
+          <a href="tel:+79179690712" class="nav__phone">+7 917 969-07-12</a>
+          <div class="nav__socials">
+            <a href="https://t.me/maria_merc" target="_blank" rel="noopener">Telegram</a>
+            <a href="https://wa.me/79179690712" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="https://vk.ru/dog_style_smr" target="_blank" rel="noopener">VK</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header__actions">
+        <a href="tel:+79179690712" class="header__phone">+7 917 969-07-12</a>
+        <a href="#booking" class="btn btn--small btn--ink magnetic">Записаться</a>
+        <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <canvas class="hero__bubbles" id="bubbles" aria-hidden="true"></canvas>
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="eyebrow reveal-up"><span class="dot"></span> Студия груминга · Самара · по записи</p>
+          <h1 class="hero__title">
+            <span class="line"><span>Из лохматика</span></span>
+            <span class="line"><span>— в <em>звезду</em></span></span>
+            <span class="line"><span>района</span></span>
+          </h1>
+          <p class="hero__lead reveal-up">Стрижём, купаем и вычёсываем собак и кошек так, что соседи спрашивают контакт мастера. Американская косметика Davis, отдельные зоны для кошек и собак и фотоотчёт, пока вы пьёте кофе.</p>
+          <div class="hero__cta reveal-up">
+            <a href="https://t.me/maria_merc" target="_blank" rel="noopener" class="btn btn--accent magnetic">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.2 13 1.4 11.5c-1-.3-1-1 .2-1.5L20.6 2.8c.9-.3 1.6.2 1.3 1.5Z" fill="currentColor"/></svg>
+              Записаться в Telegram
+            </a>
+            <a href="#services" class="btn btn--ghost magnetic">Смотреть услуги</a>
+          </div>
+          <ul class="hero__trust reveal-up">
+            <li><strong>5.0</strong><span>рейтинг на<br>Яндекс Картах</span></li>
+            <li><strong data-count="117">117</strong><span>отзывов<br>от хозяев</span></li>
+            <li><strong>Davis</strong><span>премиум-косметика<br>из США</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__visual" id="heroVisual">
+          <figure class="hero__card hero__card--a" data-depth="0.6">
+            <img src="assets/images/lisichka-2.jpg" alt="Рыжий шпиц Лисичка после груминга улыбается на столе" width="900" height="1200" fetchpriority="high">
+            <figcaption>Лисичка · шпиц</figcaption>
+          </figure>
+          <figure class="hero__card hero__card--b" data-depth="1.1">
+            <img src="assets/images/ami-after.jpg" alt="Белый мальтезе Ами после стрижки" width="600" height="800">
+            <figcaption>Ами · мальтезе</figcaption>
+          </figure>
+          <figure class="hero__card hero__card--c" data-depth="1.6">
+            <img src="assets/images/maffin-after-2.jpg" alt="Абрикосовый пудель Маффин после стрижки" width="604" height="805">
+            <figcaption>Маффин · пудель</figcaption>
+          </figure>
+          <a href="#booking" class="badge-spin" aria-label="Запись открыта — перейти к записи">
+            <svg viewBox="0 0 200 200" aria-hidden="true">
+              <defs><path id="circlePath" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+              <text><textPath href="#circlePath" textLength="482" lengthAdjust="spacing">ЗАПИСЬ ОТКРЫТА • КОШКИ И СОБАКИ • </textPath></text>
+            </svg>
+            <span class="badge-spin__core">🐾</span>
+          </a>
+          <div class="hero__sticker">
+            <span class="stars">★★★★★</span>
+            «Собака чистая, вычесанная и вкусно пахнет»
+          </div>
+        </div>
+      </div>
+      <a href="#pain" class="scroll-hint" aria-label="Листать вниз"><span></span></a>
+    </section>
+
+    <!-- Бегущая строка -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Купание в 3 этапа</span><i>✦</i><span>Вычёс подшёрстка</span><i>✦</i><span>Стрижки любой сложности</span><i>✦</i><span>Озоновая SPA-ванна</span><i>✦</i><span>Креативный груминг</span><i>✦</i><span>Чистка зубов без наркоза</span><i>✦</i><span>Зоотакси</span><i>✦</i>
+        <span>Купание в 3 этапа</span><i>✦</i><span>Вычёс подшёрстка</span><i>✦</i><span>Стрижки любой сложности</span><i>✦</i><span>Озоновая SPA-ванна</span><i>✦</i><span>Креативный груминг</span><i>✦</i><span>Чистка зубов без наркоза</span><i>✦</i><span>Зоотакси</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- Боль → решение -->
+    <section class="pain section" id="pain">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal-up">Знакомо?</p>
+          <h2 class="h2 split">Шерсть везде, кроме <em>питомца</em></h2>
+        </div>
+        <div class="pain__grid">
+          <article class="pain__item reveal-up">
+            <span class="pain__num">01</span>
+            <h3>Шерсть на диване, в еде и на чёрных брюках</h3>
+            <p>Пылесос не справляется, потому что подшёрсток лезет сам. Мы вычёсываем его за один визит, и дома сразу становится чище.</p>
+          </article>
+          <article class="pain__item reveal-up">
+            <span class="pain__num">02</span>
+            <h3>Колтуны, которые страшно трогать</h3>
+            <p>Аккуратно разбираем колтуны и подбираем инструмент под тип шерсти, чтобы обойтись без лишних выбривов и боли.</p>
+          </article>
+          <article class="pain__item reveal-up">
+            <span class="pain__num">03</span>
+            <h3>Питомец боится груминга</h3>
+            <p>Работаем спокойно и без спешки, у кошек и собак отдельные зоны. Даём освоиться, хвалим и угощаем вкусняшками.</p>
+          </article>
+        </div>
+
+        <!-- Шерсть-метр -->
+        <div class="furmeter">
+          <div class="furmeter__media reveal-clip">
+            <img src="assets/images/dakota-1.jpg" alt="Чёрный мейн-кун Дакота на столе рядом с огромной горой вычесанного подшёрстка" loading="lazy" width="900" height="1200">
+            <span class="furmeter__tag">Дакота · мейн-кун</span>
+          </div>
+          <div class="furmeter__text">
+            <p class="eyebrow reveal-up">Шерсть-метр</p>
+            <h3 class="furmeter__title split">Вся эта гора вычесана из <em>одной</em> кошки</h3>
+            <p class="reveal-up">Мейн-кун Дакота пришла на полный комплекс. Посмотрите, сколько подшёрстка мы убрали за один визит. Теперь всё это не на вашем диване и не в желудке у кошки.</p>
+            <div class="furmeter__bar reveal-up" aria-hidden="true">
+              <div class="furmeter__fill"><span></span></div>
+              <div class="furmeter__labels"><span>было</span><span>стало легче</span></div>
+            </div>
+            <a href="#booking" class="btn btn--ink magnetic reveal-up">Хочу так же</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Услуги -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-head section-head--row">
+          <div>
+            <p class="eyebrow reveal-up">Услуги</p>
+            <h2 class="h2 split">Всё, чтобы питомец <em>сиял</em></h2>
+          </div>
+          <p class="section-head__note reveal-up">Стоимость зависит от породы и состояния шерсти. Напишите нам, и точную цену назовём за минуту.</p>
+        </div>
+
+        <ul class="svc" id="svcList">
+          <li class="svc__item" data-img="assets/images/lisichka-brush.jpg">
+            <button class="svc__row" aria-expanded="false">
+              <span class="svc__num">01</span>
+              <span class="svc__name">Полный комплекс</span>
+              <span class="svc__tag">хит</span>
+              <span class="svc__plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc__body"><div>
+              <p>Мытьё в три этапа (очищающий шампунь, глубоко увлажняющий шампунь, кондиционер или маска), сушка компрессором, вычёс, стрижка, когти, ушки и лапки. Парфюм HYDRA в подарок.</p>
+              <img src="assets/images/lisichka-brush.jpg" alt="Шпиц на груминге со щёткой" loading="lazy">
+            </div></div>
+          </li>
+          <li class="svc__item" data-img="assets/images/dakota-2.jpg">
+            <button class="svc__row" aria-expanded="false">
+              <span class="svc__num">02</span>
+              <span class="svc__name">Экспресс-линька</span>
+              <span class="svc__tag">−90% шерсти дома</span>
+              <span class="svc__plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc__body"><div>
+              <p>Удаляем отмерший подшёрсток профессиональными инструментами и компрессором. Шерсть становится мягче и гуще, а дома её больше не найти на каждом диване.</p>
+              <img src="assets/images/dakota-2.jpg" alt="Мейн-кун после вычёса" loading="lazy">
+            </div></div>
+          </li>
+          <li class="svc__item" data-img="assets/images/maffin-after.jpg">
+            <button class="svc__row" aria-expanded="false">
+              <span class="svc__num">03</span>
+              <span class="svc__name">Стрижки любой сложности</span>
+              <span class="svc__tag">породные и модельные</span>
+              <span class="svc__plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc__body"><div>
+              <p>Делаем породные стрижки, «под мишку», модельные и гигиенические. Сохраняем силуэт, открываем мордочку и подбираем форму под характер питомца.</p>
+              <img src="assets/images/maffin-after.jpg" alt="Пудель после стрижки" loading="lazy">
+            </div></div>
+          </li>
+          <li class="svc__item" data-img="assets/images/molly-fur.jpg">
+            <button class="svc__row" aria-expanded="false">
+              <span class="svc__num">04</span>
+              <span class="svc__name">Груминг кошек</span>
+              <span class="svc__tag">отдельная зона</span>
+              <span class="svc__plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc__body"><div>
+              <p>Купание, вычёс, стрижка, когти и ушки. Кошки работают в отдельной спокойной зоне без собачьего лая, и стресса меньше.</p>
+              <img src="assets/images/molly-fur.jpg" alt="Кошка после вычёса" loading="lazy">
+            </div></div>
+          </li>
+          <li class="svc__item" data-img="assets/images/tessa-1.jpg">
+            <button class="svc__row" aria-expanded="false">
+              <span class="svc__num">05</span>
+              <span class="svc__name">Озоновая SPA-ванна</span>
+              <span class="svc__tag">для кожи и шерсти</span>
+              <span class="svc__plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc__body"><div>
+              <p>Глубоко очищает кожу и улучшает кровообращение. Полезна при перхоти и проблемах с шерстью, а питомцы обожают пузырьки.</p>
+              <img src="assets/images/tessa-1.jpg" alt="Далматин в ванне для груминга" loading="lazy">
+            </div></div>
+          </li>
+          <li class="svc__item" data-img="assets/images/sharpei-face.jpg">
+            <button class="svc__row" aria-expanded="false">
+              <span class="svc__num">06</span>
+              <span class="svc__name">Чистка зубов без наркоза</span>
+              <span class="svc__tag">механически</span>
+              <span class="svc__plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc__body"><div>
+              <p>Механически снимаем зубной камень без анестезии: свежее дыхание и белые зубы, а питомец сразу после процедуры едет домой.</p>
+              <img src="assets/images/sharpei-face.jpg" alt="Шарпей крупным планом" loading="lazy">
+            </div></div>
+          </li>
+          <li class="svc__item" data-img="assets/images/molly-glasses.jpg">
+            <button class="svc__row" aria-expanded="false">
+              <span class="svc__num">07</span>
+              <span class="svc__name">Креативный груминг</span>
+              <span class="svc__tag">для звёзд</span>
+              <span class="svc__plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc__body"><div>
+              <p>Делаем окрашивание, стразы, косички, креативный выбрив и глиттер-тату. Подходит для праздников, фотосессий и просто для настроения.</p>
+              <img src="assets/images/molly-glasses.jpg" alt="Кошка в очках и шляпе из шерсти" loading="lazy">
+            </div></div>
+          </li>
+          <li class="svc__item" data-img="assets/images/ami-after.jpg">
+            <button class="svc__row" aria-expanded="false">
+              <span class="svc__num">08</span>
+              <span class="svc__name">Гигиена и зоотакси</span>
+              <span class="svc__tag">когти · ушки · лапки</span>
+              <span class="svc__plus" aria-hidden="true"></span>
+            </button>
+            <div class="svc__body"><div>
+              <p>Стрижём когти, чистим ушки и ухаживаем за лапками. Маленьких собак и кошек в переноске сами привезём и отвезём домой на зоотакси.</p>
+              <img src="assets/images/ami-after.jpg" alt="Мальтезе после гигиены" loading="lazy">
+            </div></div>
+          </li>
+        </ul>
+        <div class="svc__preview" id="svcPreview" aria-hidden="true"><img alt=""></div>
+      </div>
+    </section>
+
+    <!-- До / после -->
+    <section class="ba section section--dark" id="before-after">
+      <div class="container ba__inner">
+        <div class="ba__text">
+          <p class="eyebrow eyebrow--light reveal-up">До / после</p>
+          <h2 class="h2 split">Потяните ползунок и <em>почувствуйте</em> разницу</h2>
+          <div class="ba__tabs" role="tablist">
+            <button class="ba__tab is-active" role="tab" aria-selected="true" data-before="assets/images/poodle-before.jpg" data-after="assets/images/maffin-after.jpg" data-name="Маффин, той-пудель" data-desc="Промыли, просушили и прочесали, затем оформили корпус, лапы и мордочку. Шерсть лежит ровно, мордочка открылась, а силуэт стал собранным.">Маффин</button>
+            <button class="ba__tab" role="tab" aria-selected="false" data-before="assets/images/ami-before.jpg" data-after="assets/images/ami-after.jpg" data-name="Ами, мальтезе" data-desc="Малыш быстро освоился в студии. После процедур стал чище, аккуратнее и пушистее, как маленький плюшевый зайчик.">Ами</button>
+          </div>
+          <div class="ba__info">
+            <h3 class="ba__name" id="baName">Маффин, той-пудель</h3>
+            <p class="ba__desc" id="baDesc">Промыли, просушили и прочесали, затем оформили корпус, лапы и мордочку. Шерсть лежит ровно, мордочка открылась, а силуэт стал собранным.</p>
+          </div>
+          <a href="#booking" class="btn btn--accent magnetic">Записать питомца</a>
+        </div>
+
+        <div class="ba__compare reveal-clip" id="compare" style="--pos:50%">
+          <img class="ba__img ba__img--after" id="baAfter" src="assets/images/maffin-after.jpg" alt="После груминга">
+          <div class="ba__before-wrap">
+            <img class="ba__img ba__img--before" id="baBefore" src="assets/images/poodle-before.jpg" alt="До груминга">
+          </div>
+          <span class="ba__label ba__label--before">до</span>
+          <span class="ba__label ba__label--after">после</span>
+          <div class="ba__handle" aria-hidden="true"><span>⟷</span></div>
+          <input type="range" min="0" max="100" value="50" class="ba__range" id="baRange" aria-label="Сравнение до и после">
+        </div>
+      </div>
+    </section>
+
+    <!-- Как проходит визит -->
+    <section class="process section" id="process">
+      <div class="container process__inner">
+        <div class="process__aside">
+          <p class="eyebrow reveal-up">Как проходит визит</p>
+          <h2 class="h2 split">Пять шагов до <em>«вау, это мой пёс?»</em></h2>
+          <p class="reveal-up process__note">Работаем только по записи, поэтому в студии нет очередей и чужих питомцев, которые нервируют вашего.</p>
+        </div>
+        <ol class="steps" id="steps">
+          <li class="step">
+            <span class="step__paw">🐾</span>
+            <h3>Запись за 1 минуту</h3>
+            <p>Напишите в Telegram или WhatsApp, расскажите породу и что беспокоит. Назовём цену и подберём время.</p>
+          </li>
+          <li class="step">
+            <span class="step__paw">🐾</span>
+            <h3>Знакомство и осмотр</h3>
+            <p>Даём питомцу освоиться, смотрим кожу, шерсть и колтуны и обсуждаем с вами желаемый результат.</p>
+          </li>
+          <li class="step">
+            <span class="step__paw">🐾</span>
+            <h3>Купание в три этапа</h3>
+            <p>Очищающий шампунь, глубокое увлажнение и маска на премиальной косметике Davis из США.</p>
+          </li>
+          <li class="step">
+            <span class="step__paw">🐾</span>
+            <h3>Сушка, вычёс, стрижка</h3>
+            <p>Компрессор выдувает отмерший подшёрсток, затем идут вычёс по типу шерсти, стрижка и уход за когтями и ушками.</p>
+          </li>
+          <li class="step">
+            <span class="step__paw">🐾</span>
+            <h3>Фотоотчёт и подарок</h3>
+            <p>Отправляем вам фото результата, а питомец уезжает домой с ароматом гипоаллергенного парфюма HYDRA.</p>
+          </li>
+          <span class="steps__line" aria-hidden="true"><span></span></span>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Креатив -->
+    <section class="creative section section--dark" id="creative">
+      <div class="container creative__inner">
+        <div class="creative__media">
+          <figure class="creative__main tilt reveal-clip">
+            <img src="assets/images/molly-glasses.jpg" alt="Полосатая кошка Молли в солнечных очках и шляпе из собственной шерсти" loading="lazy">
+          </figure>
+          <figure class="creative__small reveal-clip">
+            <img src="assets/images/tessa-hearts.jpg" alt="Далматин Тесса рядом с сердечками из вычесанной шерсти" loading="lazy">
+          </figure>
+        </div>
+        <div class="creative__text">
+          <p class="eyebrow eyebrow--light reveal-up">Креативный груминг</p>
+          <h2 class="h2 split">Да, мы делаем котам шляпы. <em>Из их же шерсти.</em></h2>
+          <p class="reveal-up">Груминг можно делать с любовью и чувством юмора. После процедур мы выкладываем из вычесанной шерсти сердечки и шляпки, а для праздников и фотосессий делаем полноценный креатив.</p>
+          <ul class="chips reveal-up">
+            <li>окрашивание</li><li>стразы</li><li>косички</li><li>креативный выбрив</li><li>глиттер-тату</li>
+          </ul>
+          <a href="https://t.me/s/dog_style_smr" target="_blank" rel="noopener" class="btn btn--light magnetic">Смотреть канал в Telegram →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Почему мы -->
+    <section class="why section" id="why">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal-up">Почему нам доверяют</p>
+          <h2 class="h2 split">Здесь любят <em>животных</em>, а не только стригут</h2>
+        </div>
+        <div class="bento">
+          <div class="bento__cell bento__cell--rating reveal-up">
+            <span class="bento__big"><span data-count-float="5.0">5.0</span></span>
+            <span class="bento__stars">★★★★★</span>
+            <p>Рейтинг на Яндекс Картах по 117 отзывам</p>
+          </div>
+          <div class="bento__cell bento__cell--photo reveal-up">
+            <img src="assets/images/sharpei-1.jpg" alt="Шоколадный шарпей на столе для груминга" loading="lazy">
+          </div>
+          <div class="bento__cell reveal-up">
+            <span class="bento__icon">🧴</span>
+            <h3>Косметика Davis</h3>
+            <p>Работаем только на премиальной профессиональной косметике из США.</p>
+          </div>
+          <div class="bento__cell bento__cell--lilac reveal-up">
+            <span class="bento__icon">🐈‍⬛</span>
+            <h3>Кошки отдельно от собак</h3>
+            <p>У кошек и собак разные безопасные зоны, поэтому никакого лая над ухом.</p>
+          </div>
+          <div class="bento__cell reveal-up">
+            <span class="bento__icon">📸</span>
+            <h3>Фотоотчёт хозяину</h3>
+            <p>Видите результат ещё до того, как приедете за питомцем.</p>
+          </div>
+          <div class="bento__cell bento__cell--apricot reveal-up">
+            <span class="bento__icon">🎁</span>
+            <h3>Парфюм HYDRA в подарок</h3>
+            <p>Гипоаллергенный аромат к любому комплексу процедур.</p>
+          </div>
+          <div class="bento__cell bento__cell--wide reveal-up">
+            <span class="bento__icon">🚕</span>
+            <div>
+              <h3>Зоотакси</h3>
+              <p>Заберём маленькую собаку или кошку в переноске и привезём обратно, чистую и довольную.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Галерея -->
+    <section class="works section" id="works">
+      <div class="container">
+        <div class="section-head section-head--row">
+          <div>
+            <p class="eyebrow reveal-up">Наши работы</p>
+            <h2 class="h2 split">Довольные <em>клиенты</em> с хвостами</h2>
+          </div>
+          <div class="filters reveal-up" role="tablist" aria-label="Фильтр работ">
+            <button class="filter is-active" data-filter="all">Все</button>
+            <button class="filter" data-filter="dog">Собаки</button>
+            <button class="filter" data-filter="cat">Кошки</button>
+          </div>
+        </div>
+        <div class="gallery" id="gallery">
+          <figure class="g-item" data-cat="dog"><img src="assets/images/lisichka-1.jpg" alt="Шпиц Лисичка после стрижки" loading="lazy"><figcaption>Лисичка · полный комплекс</figcaption></figure>
+          <figure class="g-item" data-cat="cat"><img src="assets/images/dakota-2.jpg" alt="Мейн-кун Дакота и гора подшёрстка" loading="lazy"><figcaption>Дакота · вычёс подшёрстка</figcaption></figure>
+          <figure class="g-item" data-cat="dog"><img src="assets/images/maffin-after-2.jpg" alt="Пудель Маффин после стрижки" loading="lazy"><figcaption>Маффин · стрижка</figcaption></figure>
+          <figure class="g-item" data-cat="dog"><img src="assets/images/tessa-1.jpg" alt="Далматин Тесса после купания" loading="lazy"><figcaption>Тесса · купание и вычёс</figcaption></figure>
+          <figure class="g-item" data-cat="cat"><img src="assets/images/molly-hat.jpg" alt="Кошка Молли в шляпе из шерсти" loading="lazy"><figcaption>Молли · полный комплекс</figcaption></figure>
+          <figure class="g-item" data-cat="dog"><img src="assets/images/sharpei-1.jpg" alt="Шоколадный шарпей" loading="lazy"><figcaption>Шарпей · купание</figcaption></figure>
+          <figure class="g-item" data-cat="dog"><img src="assets/images/ami-after.jpg" alt="Мальтезе Ами" loading="lazy"><figcaption>Ами · уход для малыша</figcaption></figure>
+          <figure class="g-item" data-cat="cat"><img src="assets/images/molly-fur-2.jpg" alt="Кошка Молли после вычёса" loading="lazy"><figcaption>Молли · вычёс</figcaption></figure>
+          <figure class="g-item" data-cat="dog"><img src="assets/images/tessa-hearts.jpg" alt="Далматин Тесса и сердечки из шерсти" loading="lazy"><figcaption>Тесса · с любовью</figcaption></figure>
+          <figure class="g-item" data-cat="dog"><img src="assets/images/lisichka-brush.jpg" alt="Шпиц на столе со щёткой" loading="lazy"><figcaption>Лисичка · вычёс</figcaption></figure>
+          <figure class="g-item" data-cat="cat"><img src="assets/images/dakota-1.jpg" alt="Мейн-кун Дакота" loading="lazy"><figcaption>Дакота · после комплекса</figcaption></figure>
+          <figure class="g-item" data-cat="dog"><img src="assets/images/poodle-fluffy.jpg" alt="Пушистый пудель" loading="lazy"><figcaption>Пудель · стрижка «мишка»</figcaption></figure>
+          <figure class="g-item" data-cat="dog"><img src="assets/images/sharpei-face.jpg" alt="Мордочка шарпея" loading="lazy"><figcaption>Шарпей · складочки чистые</figcaption></figure>
+          <figure class="g-item" data-cat="dog"><img src="assets/images/lisichka-2.jpg" alt="Улыбающийся шпиц" loading="lazy"><figcaption>Лисичка · улыбка после груминга</figcaption></figure>
+          <figure class="g-item" data-cat="cat"><img src="assets/images/molly-glasses.jpg" alt="Кошка в очках" loading="lazy"><figcaption>Молли · креатив</figcaption></figure>
+        </div>
+        <div class="works__more reveal-up">
+          <a href="https://t.me/s/dog_style_smr" target="_blank" rel="noopener" class="btn btn--ghost magnetic">Больше 700 фото в нашем Telegram →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="reviews section section--lilac" id="reviews">
+      <div class="container">
+        <div class="reviews__head">
+          <div>
+            <p class="eyebrow reveal-up">Отзывы</p>
+            <h2 class="h2 split">117 хозяев уже <em>довольны</em></h2>
+          </div>
+          <div class="reviews__score reveal-up">
+            <span class="reviews__num">5.0</span>
+            <span><span class="stars">★★★★★</span><br>Яндекс Карты</span>
+          </div>
+        </div>
+        <div class="reviews__track" id="reviewsTrack">
+          <article class="review">
+            <p>Результат всегда отличный, а после груминга присылают фотоотчёт и угощают питомца вкусняшками.</p>
+            <footer><span class="review__ava">M</span><div><strong>Madennel</strong><span>3 ноября · Яндекс Карты</span></div></footer>
+          </article>
+          <article class="review">
+            <p>Первый груминг прошёл отлично: собака чистая, вычесанная и вкусно пахнет.</p>
+            <footer><span class="review__ava">М</span><div><strong>Марина С.</strong><span>27 сентября · Яндекс Карты</span></div></footer>
+          </article>
+          <article class="review">
+            <p>Профессиональные мастера, с удовольствием рекомендую студию.</p>
+            <footer><span class="review__ava">Т</span><div><strong>Татьяна Сливкина</strong><span>26 сентября · Яндекс Карты</span></div></footer>
+          </article>
+          <article class="review">
+            <p>Регулярно хожу на экспресс-линьку: шерсть у питомца стала мягче и гуще.</p>
+            <footer><span class="review__ava">О</span><div><strong>Ольга</strong><span>7 сентября · Яндекс Карты</span></div></footer>
+          </article>
+        </div>
+        <div class="reviews__nav">
+          <button class="round-btn" id="revPrev" aria-label="Предыдущий отзыв">←</button>
+          <button class="round-btn" id="revNext" aria-label="Следующий отзыв">→</button>
+          <a href="https://yandex.ru/maps/org/79488590921" target="_blank" rel="noopener" class="link-arrow">Все отзывы на Яндекс Картах →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Квиз-запись -->
+    <section class="booking section" id="booking">
+      <div class="container booking__inner">
+        <div class="booking__text">
+          <p class="eyebrow reveal-up">Запись онлайн</p>
+          <h2 class="h2 split">Соберите визит за <em>20&nbsp;секунд</em></h2>
+          <p class="reveal-up">Ответьте на три вопроса, и мы подготовим сообщение для администратора. Останется только нажать «Отправить».</p>
+          <ul class="booking__perks reveal-up">
+            <li>✓ Ответим и назовём цену в течение пары минут</li>
+            <li>✓ Подберём удобное время без очередей</li>
+            <li>✓ Парфюм HYDRA в подарок к любому комплексу</li>
+          </ul>
+        </div>
+
+        <form class="quiz reveal-up" id="quiz" novalidate>
+          <div class="quiz__progress"><span id="quizBar"></span></div>
+          <div class="quiz__step is-active" data-step="1">
+            <p class="quiz__q">Кто придёт к нам в гости?</p>
+            <div class="quiz__opts">
+              <label class="opt"><input type="radio" name="pet" value="Собака"><span>🐕 Собака</span></label>
+              <label class="opt"><input type="radio" name="pet" value="Кошка"><span>🐈 Кошка</span></label>
+            </div>
+          </div>
+          <div class="quiz__step" data-step="2">
+            <p class="quiz__q">Какого размера питомец?</p>
+            <div class="quiz__opts">
+              <label class="opt"><input type="radio" name="size" value="малыш до 5 кг"><span>Малыш · до 5 кг</span></label>
+              <label class="opt"><input type="radio" name="size" value="средний 5–15 кг"><span>Средний · 5–15 кг</span></label>
+              <label class="opt"><input type="radio" name="size" value="крупный от 15 кг"><span>Крупный · от 15 кг</span></label>
+              <label class="opt"><input type="radio" name="size" value="не знаю"><span>Затрудняюсь</span></label>
+            </div>
+          </div>
+          <div class="quiz__step" data-step="3">
+            <p class="quiz__q">Что нужно сделать? <small>можно несколько</small></p>
+            <div class="quiz__opts quiz__opts--chips">
+              <label class="opt"><input type="checkbox" name="svc" value="полный комплекс"><span>Полный комплекс</span></label>
+              <label class="opt"><input type="checkbox" name="svc" value="стрижка"><span>Стрижка</span></label>
+              <label class="opt"><input type="checkbox" name="svc" value="вычёс / экспресс-линька"><span>Вычёс</span></label>
+              <label class="opt"><input type="checkbox" name="svc" value="купание"><span>Купание</span></label>
+              <label class="opt"><input type="checkbox" name="svc" value="озоновая ванна"><span>Озон-SPA</span></label>
+              <label class="opt"><input type="checkbox" name="svc" value="чистка зубов"><span>Чистка зубов</span></label>
+              <label class="opt"><input type="checkbox" name="svc" value="креатив"><span>Креатив</span></label>
+              <label class="opt"><input type="checkbox" name="svc" value="зоотакси"><span>Зоотакси</span></label>
+            </div>
+          </div>
+          <div class="quiz__step" data-step="4">
+            <p class="quiz__q">Готово! Ваше сообщение:</p>
+            <div class="quiz__msg" id="quizMsg"></div>
+            <div class="quiz__send">
+              <a class="btn btn--accent" id="sendWa" href="https://wa.me/79179690712" target="_blank" rel="noopener">Отправить в WhatsApp</a>
+              <a class="btn btn--ink" id="sendTg" href="https://t.me/maria_merc" target="_blank" rel="noopener">Открыть Telegram</a>
+              <button type="button" class="btn btn--ghost" id="copyMsg">Скопировать текст</button>
+            </div>
+            <p class="quiz__hint">Telegram не умеет подставлять текст автоматически: скопируйте сообщение и вставьте в чат. Также можно позвонить: <a href="tel:+79179690712">+7 917 969-07-12</a></p>
+          </div>
+          <div class="quiz__nav">
+            <button type="button" class="quiz__back" id="quizBack" disabled>← Назад</button>
+            <button type="button" class="btn btn--ink" id="quizNext" disabled>Далее →</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section" id="faq">
+      <div class="container faq__inner">
+        <div>
+          <p class="eyebrow reveal-up">Вопросы</p>
+          <h2 class="h2 split">Отвечаем <em>честно</em></h2>
+          <img class="faq__pic reveal-clip" src="assets/images/lisichka-2.jpg" alt="Шпиц Лисичка" loading="lazy">
+        </div>
+        <div class="acc">
+          <details class="acc__item" open>
+            <summary>Сколько стоит груминг?</summary>
+            <p>Цена зависит от породы, размера и состояния шерсти, поэтому единого прайса нет. Напишите породу в Telegram или WhatsApp, и мы назовём точную стоимость за пару минут.</p>
+          </details>
+          <details class="acc__item">
+            <summary>Мой питомец боится. Справитесь?</summary>
+            <p>Да. Работаем спокойно и без спешки, даём освоиться и хвалим. У кошек и собак отдельные зоны, а запись идёт по времени, без толпы в студии.</p>
+          </details>
+          <details class="acc__item">
+            <summary>Вы стрижёте кошек?</summary>
+            <p>Конечно. Купаем, вычёсываем, стрижём и ухаживаем за когтями и ушками. Посмотрите на Дакоту и Молли в галерее.</p>
+          </details>
+          <details class="acc__item">
+            <summary>Какой косметикой вы пользуетесь?</summary>
+            <p>Премиальной профессиональной косметикой американского бренда Davis. Подбираем средства под тип шерсти и кожи.</p>
+          </details>
+          <details class="acc__item">
+            <summary>Можно ли без наркоза почистить зубы?</summary>
+            <p>Да, мы механически снимаем зубной камень без анестезии. Все детали и противопоказания уточните у администратора при записи.</p>
+          </details>
+          <details class="acc__item">
+            <summary>Есть ли доставка питомца?</summary>
+            <p>Есть зоотакси для маленьких собак и кошек в переноске. Заберём и привезём обратно.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="contacts section section--dark" id="contacts">
+      <div class="container">
+        <div class="contacts__cta">
+          <h2 class="contacts__title split">Ваш питомец <em>заслуживает</em> лучшего дня недели</h2>
+          <div class="contacts__buttons reveal-up">
+            <a href="https://t.me/maria_merc" target="_blank" rel="noopener" class="btn btn--accent btn--big magnetic">Написать в Telegram</a>
+            <a href="tel:+79179690712" class="btn btn--light btn--big magnetic">+7 917 969-07-12</a>
+          </div>
+        </div>
+        <div class="contacts__grid">
+          <div class="contacts__card reveal-up">
+            <span class="contacts__label">Адрес</span>
+            <p>Самара, ул. Революционная, 135</p>
+            <a href="https://yandex.ru/maps/org/79488590921" target="_blank" rel="noopener" class="link-arrow">Построить маршрут →</a>
+          </div>
+          <div class="contacts__card reveal-up">
+            <span class="contacts__label">Режим</span>
+            <p>Строго по предварительной записи</p>
+            <a href="https://dikidi.net/g440079" target="_blank" rel="noopener" class="link-arrow">Онлайн-запись DIKIDI →</a>
+          </div>
+          <div class="contacts__card reveal-up">
+            <span class="contacts__label">Мессенджеры</span>
+            <div class="contacts__socials">
+              <a href="https://t.me/maria_merc" target="_blank" rel="noopener">Telegram · написать</a>
+              <a href="https://t.me/s/dog_style_smr" target="_blank" rel="noopener">Telegram · канал</a>
+              <a href="https://wa.me/79179690712" target="_blank" rel="noopener">WhatsApp</a>
+              <a href="https://vk.ru/dog_style_smr" target="_blank" rel="noopener">ВКонтакте</a>
+            </div>
+          </div>
+        </div>
+        <div class="map reveal-up" id="map">
+          <div class="map__fallback">
+            <span class="map__pin">📍</span>
+            <p>Самара, ул. Революционная, 135</p>
+            <a href="https://yandex.ru/maps/org/79488590921" target="_blank" rel="noopener" class="btn btn--light">Открыть в Яндекс Картах</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__big" aria-hidden="true">Стиль Собачки</div>
+      <div class="footer__row">
+        <div class="footer__col">
+          <p>Студия груминга для собак и кошек</p>
+          <p>Самара, ул. Революционная, 135</p>
+          <p><a href="tel:+79179690712">+7 917 969-07-12</a></p>
+        </div>
+        <div class="footer__col">
+          <a href="#services">Услуги</a>
+          <a href="#works">Работы</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#contacts">Контакты</a>
+        </div>
+        <div class="footer__col">
+          <p>ИП Хазова Мария Владимировна</p>
+          <p>ИНН 633064326827</p>
+          <a href="privacy.html">Политика конфиденциальности и cookie</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="year">2026</span> Стиль Собачки. Все права защищены.</span>
+        <a href="https://studio-psi-olive.vercel.app/" target="_blank" rel="noopener" class="footer__dev">Сайт разработан в студии <strong>Сайтика</strong></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Мобильная панель -->
+  <div class="mobile-bar">
+    <a href="tel:+79179690712" class="mobile-bar__call" aria-label="Позвонить">📞</a>
+    <a href="#booking" class="mobile-bar__book">Записаться на груминг</a>
+    <a href="https://t.me/maria_merc" target="_blank" rel="noopener" class="mobile-bar__tg" aria-label="Telegram">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.2 13 1.4 11.5c-1-.3-1-1 .2-1.5L20.6 2.8c.9-.3 1.6.2 1.3 1.5Z" fill="currentColor"/></svg>
+    </a>
+  </div>
+
+  <!-- Лайтбокс -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Просмотр фото">
+    <button class="lightbox__close" id="lbClose" aria-label="Закрыть">✕</button>
+    <button class="lightbox__arrow lightbox__arrow--prev" id="lbPrev" aria-label="Предыдущее">←</button>
+    <figure><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+    <button class="lightbox__arrow lightbox__arrow--next" id="lbNext" aria-label="Следующее">→</button>
+  </div>
+
+  <!-- Cookie -->
+  <div class="cookie" id="cookie" role="dialog" aria-live="polite" aria-label="Использование cookie">
+    <span class="cookie__icon">🍪</span>
+    <p>Мы используем cookie, чтобы сайт работал удобнее. Оставаясь на сайте, вы соглашаетесь с <a href="privacy.html">политикой конфиденциальности</a>.</p>
+    <div class="cookie__btns">
+      <button class="btn btn--small btn--ink" id="cookieOk">Принять</button>
+      <button class="btn btn--small btn--ghost" id="cookieMin">Только необходимые</button>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
